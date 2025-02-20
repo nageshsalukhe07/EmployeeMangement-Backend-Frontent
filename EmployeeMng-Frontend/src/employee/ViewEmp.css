@@ -1,0 +1,91 @@
+/* ViewEmp.css */
+.container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #343a40;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn {
+    font-size: 0.9rem;
+  }
+  
+  /* ViewEmp.css */
+
+/* Apply background image and ensure it adjusts with content */
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-image: url('https://akriviahcm.com/blog/wp-content/uploads/2024/01/features-of-employee-management-system.png');
+    background-size: 100% auto; /* Auto adjust height, fill width */
+    background-repeat: no-repeat; /* No repeating of the image */
+    background-position: center top; /* Center align the image */
+    background-attachment: fixed; /* Keep the background fixed */
+  }
+  
+  /* Container to center the table and make content readable */
+  .container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* White text for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 50px auto; /* Center the container */
+  }
+  
+  /* Responsive table styling */
+  .table {
+    color: white; /* Text color */
+  }
+  
+  .table-dark th {
+    background-color: #343a40; /* Dark table header */
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border-color: white; /* White borders */
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.1); /* Light stripe for rows */
+  }
+  
+  /* Buttons styling */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  /* Make the table and content responsive */
+  .table-responsive {
+    overflow-x: auto;
+    min-height: 200px;
+  }
+  
+  /* Responsive image scaling */
+  @media screen and (max-width: 768px) {
+    body {
+      background-size: cover; /* Cover entire screen for smaller devices */
+    }
+  
+    .container {
+      padding: 10px; /* Adjust padding for small screens */
+    }
+  }
+  

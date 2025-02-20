@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 600px;
+  }
+  
+  form {
+    background-color: #ffffff;
+  }
+  
+  button {
+    width: 100%;
+  }
+
+  .btnbtn{
+    width: 10%;
+  }
+
+  /* form css */
+  
+  
