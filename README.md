@@ -66,7 +66,7 @@ Clone the repository
 
 Set up MySQL and import the schema
 
-Run the Spring Boot app from your IDE (Eclipse/IntelliJ)
+Run the Spring Boot app from Eclipse IDE 
 
 Navigate to the frontend/ folder and run:
 
